@@ -1,0 +1,6 @@
+autowire_example.user_count:
+  path: '/user-count'
+  defaults:
+    _controller: 'Drupal\autowire_example\Controller\ExampleController::__invoke'
+  requirements:
+    _access: 'TRUE'

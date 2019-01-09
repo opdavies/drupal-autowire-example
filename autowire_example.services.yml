@@ -1,0 +1,6 @@
+services:
+  Drupal\autowire_example\Service\UserCounter:
+    autowire: true
+
+  Drupal\autowire_example\Controller\ExampleController:
+    autowire: true

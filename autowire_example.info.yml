@@ -1,0 +1,5 @@
+name: 'Autowire Example'
+type: module
+description: 'An example module to demonstrate autowiring in Drupal 8.'
+core: 8.x
+package: 'Example modules'
