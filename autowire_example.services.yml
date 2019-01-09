@@ -2,8 +2,8 @@ services:
   Drupal\Core\Entity\EntityTypeManagerInterface:
     alias: entity_type.manager
 
-  Drupal\autowire_example\Service\UserCounter:
+  Drupal\autowire_example\Controller\ExampleController:
     autowire: true
 
-  Drupal\autowire_example\Controller\ExampleController:
+  Drupal\autowire_example\Service\UserCounter:
     autowire: true
