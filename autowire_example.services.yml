@@ -1,0 +1,5 @@
+services:
+  autowire_example.test:
+    class: Drupal\autowire_example\Service\ExampleService
+    arguments:
+      - '@current_user'
