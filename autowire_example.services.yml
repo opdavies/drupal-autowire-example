@@ -1,4 +1,7 @@
 services:
+  Drupal\Core\Entity\EntityTypeManagerInterface:
+    alias: entity_type.manager
+
   Drupal\autowire_example\Service\UserCounter:
     autowire: true
 
